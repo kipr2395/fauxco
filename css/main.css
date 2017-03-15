@@ -681,6 +681,7 @@ section {
 }
 
 nav {
+  height: 65px;
   background-color: white;
   position: fixed;
   z-index: 1;
@@ -688,22 +689,44 @@ nav {
   width: 100%;
   font-size: 14px;
 }
-nav ul {
-  padding-left: 40px;
-  margin-top: 14px;
-}
-nav ul li {
-  display: inline-block;
-  padding-right: 40px;
-  height: 20px;
-}
-nav ul li a {
+nav a {
   display: inline-block;
 }
-nav ul li a span {
+nav a span {
   position: absolute;
   top: -9999em;
   left: -9999em;
+}
+
+.dropbtn {
+  background-color: white;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+}
+.dropdown-content a {
+  padding: 30px;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navicons a {
+  margin: 20px;
 }
 
 .shop li {
@@ -771,5 +794,24 @@ footer a span {
   .text {
     width: 550px;
     margin: 0px auto 0px auto;
+  }
+
+  .dropbtn {
+    display: none;
+  }
+
+  .dropdown {
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content a {
+    margin: 24px 20px 0px 20px;
+    padding: 0px;
+    display: inline-block;
   }
 }

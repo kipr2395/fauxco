@@ -27,16 +27,22 @@
         
         <nav>
 
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contact</a></li>
-                <!-- <li><a href="#"><span></span></a></li> -->
-                <li class="right"><a href="#" class="icon-cart"><span></span></a></li>
-                <li class="right"><a href="#" class="icon-signin"><span></span></a></li>
+            <div class="dropdown">
+                <button class="dropbtn icon-nav"></button>
+                <div class="dropdown-content">
+                    <a href="#">About</a>
+                    <a href="#">Shop</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
 
-            </ul>
+            <div class="navicons right">
+                <a href="#" class="icon-cart"><span></span></a>
+                <a href="#" class="icon-signin"><span></span></a>
+            </div>
+
+
         </nav>
 
     <div class="container">
@@ -119,10 +125,28 @@
             <p class="a">All of our packaging is made from recycled materials collected in the Denver Metro area. In addition to maintaining a safe haven for the unicorns, we also are dedicated to preserving our world as well!</p>
         </div> 
         </section>
+
+        <section class="contact">
+            <h1 class="centerme title">Contact Us</h1>
+
+            <div class="form">
+                <form>
+                    Name:<br>
+                    <input type="text" name="name"><br>
+                    Email:<br>
+                    <input type="text" name="email"><br>
+                    Subject:<br>
+                    <input type="text" name="subject"><br>
+                    Message:<br>
+                    <textarea name="text" rows="10" cols="30"></textarea><br>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </section>
 <!--     </div> --> <!-- end container -->
         <footer>
  
-            <h1 class="centerme title">Contact</h1>
+           
             <div class="social centerme">
                 <ul>
                     <li><h2>Follow Us</h2></li>
@@ -137,6 +161,7 @@
                     <li><h2>Quick Links</h2></li>
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
                     <li><a href="#">Sign In</a></li>
                     <li><a href="#">FAQ</a></li>
                 </ul>
@@ -145,12 +170,12 @@
 
             </div>
 
-    </div> <!-- end container -->
+
           
         </footer>
         <!-- Add your site or application content here -->
         
-    
+      </div> <!-- end container -->
 
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
