@@ -687,7 +687,7 @@ nav {
   z-index: 1;
   top: 0px;
   width: 100%;
-  font-size: 14px;
+  font-size: .9em;
 }
 nav a {
   display: inline-block;
@@ -778,6 +778,9 @@ nav a span {
 footer {
   background-color: white;
 }
+footer h2 {
+  font-size: 1.2em;
+}
 footer ul {
   margin-bottom: 0px;
 }
@@ -788,6 +791,26 @@ footer a span {
   position: absolute;
   top: -9999em;
   left: -9999em;
+}
+
+.social {
+  padding-bottom: 50px;
+}
+.social li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.qlinks {
+  padding-bottom: 20px;
+}
+.qlinks li {
+  padding-bottom: 10px;
+  font-size: .8em;
+}
+
+.footer-content {
+  padding: 40px 0px;
 }
 
 /*///////////////////////////////////*/

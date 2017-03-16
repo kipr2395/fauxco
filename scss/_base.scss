@@ -107,7 +107,8 @@ nav{
 	z-index: 1;
 	top:0px;
 	width:100%;
-	font-size: 14px;
+	// font-size: 14px;
+	font-size: .9em;
 	
 
 		
@@ -228,6 +229,9 @@ footer{
 	// padding-top:75px;
 	// height:200px;
 	background-color: white;
+	h2{
+		font-size: 1.2em;
+	}
 
 	ul{
 		margin-bottom: 0px;
@@ -243,8 +247,25 @@ footer{
 				left:-9999em;
 			}//span
 		}//a
+}//footer
+.social{
+	padding-bottom: 50px;
+	li{
+		display:inline-block;
+		padding: 0px 10px;
+	}
 }
+.qlinks{
 
+	padding-bottom: 20px;
+	li{
+		padding-bottom:10px;
+		font-size: .8em;
+	}
+}
+.footer-content{
+	padding:40px 0px;
+}
 
 
 /*///////////////////////////////////*/
