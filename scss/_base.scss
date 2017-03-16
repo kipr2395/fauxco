@@ -42,9 +42,7 @@ a{
 	color:black;
 
 }
-a:hover{
-	opacity:0.4;
-}
+
 p{
 	line-height: 1.5em;
 }
@@ -110,7 +108,13 @@ nav{
 	// font-size: 14px;
 	font-size: .9em;
 	
-
+		li{
+			display:inline-block;
+			cursor: pointer;
+		}
+		li:hover{
+	opacity:0.4;
+}
 		
 		a{
 	 	display:inline-block;	
@@ -145,6 +149,10 @@ nav{
 	background-color: white;
 	z-index:1;
 
+	li{
+		padding:30px;
+		display:block;
+	}
 	a{
 		padding:30px;
 		display:block;
@@ -236,9 +244,12 @@ footer{
 	ul{
 		margin-bottom: 0px;
 	}
-
-		a{
-			display:inline-block;	
+		li:hover{
+	opacity:0.4;
+}
+		li{
+			display:inline-block;
+			// padding: 0px 20px;	
 		// height:30px;
 
 			span{
@@ -250,15 +261,16 @@ footer{
 }//footer
 .social{
 	padding-bottom: 50px;
-	li{
+	a{
 		display:inline-block;
 		padding: 0px 10px;
 	}
 }
 .qlinks{
-
+	
 	padding-bottom: 20px;
 	li{
+		display:block;
 		padding-bottom:10px;
 		font-size: .8em;
 	}
@@ -309,8 +321,8 @@ footer{
 	position: relative;
 	display:inline-block;
 
-	a{
-		margin:24px 20px 0px 20px;
+	li{
+		margin:10px 20px 0px 20px;
 		padding:0px;
 		display: inline-block;
 		
