@@ -203,6 +203,24 @@ nav{
 	margin-bottom: 75px;
 }
 
+///////CONTACT//////////
+.form{
+	margin: 0px auto;
+	width:261px;
+	input[type=text], textarea{
+		margin-bottom: 25px;
+	}
+	
+	input[type=submit]{
+    background-color: #FAE3D4;
+    border: none;
+    padding:10px 20px;
+
+}
+	input[type=submit]:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+}
 
 /////////////////////////////////
 ///////////////FOOTER//////////////////////////
