@@ -611,6 +611,7 @@ header {
   background-position: center;
   background-attachment: fixed;
   position: fixed;
+  background-color: white;
 }
 header h1 {
   color: rgba(0, 0, 0, 0.8);
@@ -692,14 +693,6 @@ nav li {
 nav li:hover {
   opacity: 0.4;
 }
-nav a {
-  display: inline-block;
-}
-nav a span {
-  position: absolute;
-  top: -9999em;
-  left: -9999em;
-}
 
 .dropbtn {
   background-color: white;
@@ -732,8 +725,13 @@ nav a span {
   display: block;
 }
 
-.navicons a {
-  margin: 20px;
+.navicons {
+  margin-right: 10px;
+  position: relative;
+}
+.navicons li {
+  margin: 10px 20px 0px 20px;
+  padding: 0px;
 }
 
 .shop li {
@@ -818,6 +816,10 @@ footer li span {
   display: block;
   padding-bottom: 10px;
   font-size: .8em;
+}
+.qlinks #name {
+  padding-top: 20px;
+  padding-left: 7px;
 }
 
 .footer-content {
